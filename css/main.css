@@ -110,10 +110,6 @@
 }
 
 /* main */
-main{
-
-}
-
 /* section1 */
 .section1{
   text-align: center;
@@ -123,7 +119,6 @@ main{
 
 .section1 h2{
   font-size: 14px;
-  font-weight: 400;
   color: grey;
 }
 
@@ -137,11 +132,6 @@ main{
   display: inline-block;
 }
 
-
-.section1 img{
-
-}
-
 /* section2 */
 .section2{
   text-align: center;
@@ -150,4 +140,78 @@ main{
   padding-top:50px;
   color: #031b4e;
   font-size: 25px;
+}
+
+.section2 p{
+  font-size: 17px;
+  color: grey;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.gridcontainer{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.tablist{
+  text-align: left;
+}
+
+.tablist ul{
+  list-style-type: none;
+  float: left;
+}
+
+.tablist li{
+  padding-top: 3%;
+  color: #031b4e;
+}
+
+.smallcont{
+  width: 75%;
+  margin-left: 20%;
+}
+
+.grid h3{
+  font-size: 18px;
+}
+
+.grid p{
+  margin: 0;
+  padding: 0;
+}
+
+/* section3 */
+.section3{
+  margin-top: 5%;
+  background-color: #f3f5f9;
+}
+.cont2{
+  text-align: center;
+}
+
+.cont2 h2{
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 5%;
+  color: #031b4e;
+  font-size: 25px;
+}
+
+.cont2 p{
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 19px;
+  color: rgba(3, 27, 78, 0.7);
+}
+
+.imgcont{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+
+#int{
+  padding-top: 4%;
 }
