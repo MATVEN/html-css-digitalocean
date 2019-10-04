@@ -214,3 +214,29 @@
 
 /* section4 */
 /* section5 */
+.section5{
+  background-color: #031b4e;
+  padding-bottom: 5%;
+}
+
+.section5 h2{
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.tab1{
+  float: left;
+}
+
+.tab1, .tab2{
+  width: 50%;
+}
+
+.city{
+  color: white;
+}
