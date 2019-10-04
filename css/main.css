@@ -136,6 +136,7 @@
 .section2{
   text-align: center;
 }
+
 .titletop{
   margin-left: 20%;
   margin-right: 20%;
@@ -145,11 +146,13 @@
   text-align: center;
 }
 
-.section2 p{
-  font-size: 17px;
-  color: grey;
-  padding-left: 15%;
-  padding-right: 15%;
+.item{
+  font-size: 18px;
+  color: rgba(3, 27, 78, 0.7);
+  padding-left: 17.5%;
+  padding-right: 17.5%;
+  padding-top: 1%;
+  text-align: center;
 }
 
 .gridcontainer{
@@ -192,13 +195,6 @@
 }
 .cont2{
   text-align: center;
-}
-
-.cont2 p{
-  padding-left: 20%;
-  padding-right: 20%;
-  font-size: 19px;
-  color: rgba(3, 27, 78, 0.7);
 }
 
 .imgcont{
