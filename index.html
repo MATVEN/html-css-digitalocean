@@ -35,8 +35,8 @@
             <img src="img/logo.png" alt="">
         </div>
         <div class="col-xs-9 col-md-9 col-lg-7">
-          <nav class="navbar navbar-default">
-            <div class="container-fluid">
+          <nav class="navbar">
+            <div class="container">
               <!-- Brand and toggle get grouped for better mobile display -->
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -80,12 +80,13 @@
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
           </nav>
+          </div>
         <div class="col-lg-2">
           <button type="button" id="sign" class="btn btn-primary btn-lg active">Sign Up</button>
         </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container">
       <div id="screen" class="row">
         <div class="col-xs-12 col-md-6 col-lg-6">
           <h1 id="slogan"><strong>Welcome to the developer cloud</strong></h1>
@@ -118,32 +119,23 @@
     <!-- section1 -->
     <section class="section1">
       <h2>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h2>
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
-          <ul>
-          <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="col-xs-12">
+          <ul class="log-list">
             <li><img src="img/docker.png" alt=""></li>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
             <li><img src="img/gitlab.png" alt=""></li>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
             <li><img src="img/slack.png" alt=""></li>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
             <li><img src="img/hashicorp.png" alt=""></li>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
             <li><img src="img/wework.png" alt=""></li>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
             <li><img src="img/splunk.png" alt=""></li>
-          </div>
           </ul>
+        </div>
         </div>
       </div>
       <a href="#">View customer stories</a>
     </section>
+
     <!-- section2 -->
     <section class="section2">
       <h2 class="titletop">Deploy and scale seamlessly</h2>
@@ -180,17 +172,41 @@
         </div>
       </div>
     </section>
+
     <!-- section3 -->
-    <section class="section3">
-      <div class="cont2">
-        <h2 class="titletop">Design for developers</h2>
-        <p class="item">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
-        <div class="imgcont">
-          <img src="img/screenshot.jpg" alt="">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+          <h2 class="titletop">Design for developers</h2>
         </div>
-        <p id="int">Use Kubernetes to improve availability, scalability, and resource efficiency of your containerized applications.</p>
       </div>
-    </section>
+    </div>
+
+    <!-- txt -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+          <p class="item">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- img -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+          <img class="imgcont"src="img/screenshot.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+          <p id="int">Use Kubernetes to improve availability, scalability, and resource efficiency of your containerized applications.</p>
+        </div>
+      </div>
+    </div>
     <!-- section4 -->
       <div class="container-fluid">
         <div class="row">
@@ -225,7 +241,7 @@
       </div>
     <!-- section5 -->
     <section class="section5">
-      <h2>Service your customers around the world from 12 data centers.</h2>
+      <h2 class="titletop2">Service your customers around the world from 12 data centers.</h2>
 
       <!-- tab1 -->
       <table class="table tab1">
@@ -295,6 +311,7 @@
           </tr>
         </table>
     </section>
+
     <!-- section6 -->
     <!-- title -->
     <div class="container-fluid">
@@ -319,17 +336,98 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12 col-md-12 col-lg-12">
+
         </div>
       </div>
     </div>
     <!-- section7 -->
-    <section>
+    <section class="section7">
+
+      <!-- slogan -->
+      <div class="container-slogan">
+        <h2 class="titletop2">Get started now.</h2>
+      </div>
+
+      <!-- button -->
+      <div class="container-button">
+        <button type="submit" class="btn-default"><strong>Create your account</strong></button>
+      </div>
 
     </section>
 </main>
 
 <!-- footer -->
 <footer>
+
+<!-- contacts -->
+<div class="container">
+  <div class="row row-position">
+    <div class="col-xs-6 col-md-6 col-lg-offset-1 col-lg-2">
+      <ul>Company
+        <li><a href="#">About</a></li>
+        <li><a href="#">Leadeship</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">Referal Programs</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Legal&Security</a></li>
+      </ul>
+    </div>
+    <div class="col-xs-6 col-md-6 col-lg-2">
+      <ul>Products
+        <li><a href="#">Products Overview</a></li>
+        <li><a href="#">Droplets</a></li>
+        <li><a href="#">Kubernetes</a></li>
+        <li><a href="#">Managed Databases</a></li>
+        <li><a href="#">Spaces</a></li>
+        <li><a href="#">Marketplace</a></li>
+        <li><a href="#">Load Balancers</a></li>
+        <li><a href="#">Block Storage</a></li>
+        <li><a href="#">Tools & Integrations</a></li>
+        <li><a href="#">API</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Documentation</a></li>
+        <li><a href="#">Release Notes</a></li>
+      </ul>
+    </div>
+    <div class="col-xs-6 col-md-6 col-lg-2">
+      <ul>Community
+        <li><a href="#">Tutorials</a></li>
+        <li><a href="#">Meetups</a></li>
+        <li><a href="#">Q&A</a></li>
+        <li><a href="#">Write for DOnations</a></li>
+        <li><a href="#">Droplets for Demos</a></li>
+        <li><a href="#">Hatch Startup Program</a></li>
+        <li><a href="#">Shop Swag</a></li>
+        <li><a href="#">Research Program</a></li>
+        <li><a href="#">Currents Research</a></li>
+        <li><a href="#">Open Source</a></li>
+      </ul>
+    </div>
+    <div class="col-xs-6 col-md-6 col-lg-2">
+      <ul>SolutioWeb & mobile apps
+          <li><a href="#">Website hosting</a></li>
+          <li><a href="#">Big data</a></li>
+          <li><a href="#">Managed servicesn</a></li>
+          <li><a href="#">Web & mobile apps</a></li>
+      </ul>
+    </div>
+    <div class="col-xs-6 col-md-6 col-lg-2">
+      <ul>Contact
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Sales</a></li>
+        <li><a href="#">Report Abuse</a></li>
+        <li><a href="#">System Status</a></li>
+      </ul>
+    </div>
+    <div class="col-xs-6 col-md-6 col-lg-offset-1">
+    </div>
+  </div>
+</div>
+
+<hr>
+
 </footer>
   </body>
 </html>

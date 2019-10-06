@@ -123,13 +123,17 @@
 }
 
 .section1 ul{
+  width: 100%;
   list-style-type: none;
 }
 
-.selection li{
-  width: 80%;
-  margin: 20%;
+.log-list li{
   display: inline-block;
+  width: calc((100%/6) - 4px);
+}
+
+.log-list img{
+  max-width: 100%;
 }
 
 /* section2 */
@@ -189,22 +193,14 @@
 }
 
 /* section3 */
-.section3{
-  padding-bottom: 10%;
-  background-color: #f3f5f9;
-}
-.cont2{
-  text-align: center;
-}
-
 .imgcont{
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 5%;
 }
 
-
 #int{
+  text-align: center;
   padding-top: 4%;
 }
 
@@ -215,7 +211,7 @@
   padding-bottom: 5%;
 }
 
-.section5 h2{
+.titletop2{
   margin-left: 25%;
   margin-right: 25%;
   padding-top: 5%;
@@ -235,4 +231,49 @@
 
 .city{
   color: white;
+}
+/* section6 */
+/* section7 */
+
+.section7{
+  background-image: url("../img/home.jpg");
+  background-size:contain;
+}
+
+.container-button button{
+  font-size: 16px;
+  color: #0069ff;
+  background-color: white;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 42.5%;
+  margin-bottom: 5%;
+}
+
+/* footer */
+footer{
+  background-color:#010e28;
+}
+
+.row-position{
+  margin-top: 5%;
+}
+
+.row-position ul{
+  color: white;
+  list-style-type:none;
+}
+
+.row-position li{
+  margin-top: 3%;
+}
+
+.row-position a:hover{
+  color: white;
+}
+
+.row-position a{
+  text-decoration: none;
+  color: darkgrey;
 }
